@@ -1,0 +1,7 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="borda">7dp</dimen>
+    <dimen name="espacamento">5dp</dimen>
+
+</resources>

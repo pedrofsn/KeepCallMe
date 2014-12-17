@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="pressed_example">#CCFFBB33</color>
+    <color name="cinza_sombra_card">#cccccc</color>
+    <color name="cinza_fonte_cor_clara">#777777</color>
+    <color name="cor_laranja_actionbar">#ff8800</color>
+    <color name="cor_laranka_titulo_item_adapter">#ba680a</color>
+
+</resources>

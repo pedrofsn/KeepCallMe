@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KEEP CALL ME</string>
+
+    <!-- AlertDialog -->
+    <string name="lista_de_contatos">Contacts</string>
+    <string name="inserir_numero">Manual</string>
+    <string name="efetuar_ligacao">Dial</string>
+    <string name="mensagem_dialog">Dial a number from your contact list or enter a number manually</string>
+
+    <!-- Hints -->
+    <string name="dica_pesquisa">Input the city name</string>
+
+    <!-- Toasts -->
+    <string name="problema_link">Download the data could not be done, try later or contact the developer.</string>
+    <string name="problema_conexao">You must be online in the first time the application is opened, so that the data is downloaded and saved on your device.</string>
+    <string name="salvando_dados">Saving data&#8230;</string>
+    <string name="checando_atualizacoes">Checking updates&#8230;</string>
+    <string name="precisa_internet">Opss&#8230; you must me online for search updates.</string>
+
+    <!-- Buttons -->
+    <string name="atualizando">Updating</string>
+    <string name="atualizar">Update</string>
+
+    <string name="admob">BANNER</string>
+    <string name="ops_ocorreu_um_erro">Opsss&#8230; we have a problem!</string>
+</resources>

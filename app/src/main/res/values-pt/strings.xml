@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KEEP CALL ME</string>
+
+    <!-- AlertDialog -->
+    <string name="lista_de_contatos">Contatos</string>
+    <string name="inserir_numero">Manual</string>
+    <string name="efetuar_ligacao">Efetuar ligação</string>
+    <string name="mensagem_dialog">Disque para um número da sua lista de contatos ou insira um número manualmente.</string>
+
+    <!-- Hints -->
+    <string name="dica_pesquisa">Insira o nome da cidade</string>
+
+    <!-- Toasts -->
+    <string name="problema_link">O Download dos dados não pôde ser realizado, tente mais tarde ou entre em contato com o desenvolvedor.</string>
+    <string name="problema_conexao">Você precisa estar conectado na primeira vez em que o aplicativo é aberto, para que os dados sejam baixados e salvos no seu dispositivo.</string>
+    <string name="salvando_dados">Salvando dados&#8230;</string>
+    <string name="checando_atualizacoes">Checando atualizações&#8230;</string>
+    <string name="precisa_internet">Opss&#8230; você precisa estar conectado para atualizar dados.</string>
+
+    <!-- Buttons -->
+    <string name="atualizando">Atualizando</string>
+    <string name="atualizar">Atualizar</string>
+
+    <string name="admob">BANNER</string>
+    <string name="ops_ocorreu_um_erro">Ops&#8230; ocorreu um problema!</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto" >
+
+    <!--
+    <item
+        android:id="@+id/atualizar"
+        android:icon="@drawable/ic_navigation_refresh"
+        android:title="@string/atualizar"
+        yourapp:showAsAction="never"/>
+    <item
+        android:id="@+id/delete"
+        android:icon="@android:drawable/ic_delete"
+        android:title="deletar"
+        yourapp:showAsAction="never"/>
+    -->
+    <item
+        android:id="@+id/pesquisar_cidade"
+        android:icon="@drawable/ic_action_search"
+        android:title="@android:string/search_go"
+        yourapp:actionViewClass="android.support.v7.widget.SearchView"
+        yourapp:showAsAction="ifRoom|collapseActionView"/>
+
+</menu>

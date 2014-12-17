@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="horizontal"
+    android:padding="20dp" >
+
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/mensagem_dialog"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texto"
+        android:layout_marginTop="10dp"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/listaDeContatos"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/shape_button"
+            android:drawableLeft="@drawable/ic_action_social_group"
+            android:drawablePadding="3dp"
+            android:text="@string/lista_de_contatos" />
+
+        <Button
+            android:id="@+id/manualmente"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/shape_button"
+            android:drawableLeft="@drawable/ic_action_device_access_dial_pad"
+            android:drawablePadding="3dp"
+            android:text="@string/inserir_numero" />
+
+        <!-- style="@style/button_text" -->
+    </LinearLayout>
+
+</RelativeLayout>
