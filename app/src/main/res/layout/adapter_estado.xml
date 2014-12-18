@@ -28,7 +28,7 @@
                 android:layout_centerVertical="true"
                 android:padding="5dp"
                 android:textColor="@android:color/black"
-                android:textSize="35sp"  />
+                android:textSize="35sp" />
 
             <LinearLayout
                 android:id="@+id/box"
@@ -46,9 +46,9 @@
                 <TextView
                     android:id="@+id/textViewUf"
                     android:layout_width="match_parent"
-                    android:gravity="right"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
+                    android:gravity="right"
                     android:textAllCaps="true"
                     android:textColor="@color/cor_laranka_titulo_item_adapter"
                     android:textStyle="bold" />

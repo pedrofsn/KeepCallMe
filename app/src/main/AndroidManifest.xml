@@ -1,8 +1,5 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="keep.call.me">
-
-    <meta-data
-        android:name="ADMOB_ALLOW_LOCATION_FOR_ADS"
-        android:value="true" />
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="keep.call.me">
 
     <supports-screens
         android:anyDensity="true"
@@ -11,34 +8,26 @@
         android:smallScreens="true"
         android:xlargeScreens="true" />
 
-
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
 
-
-    <application android:allowBackup="true" android:label="@string/app_name"
-        android:icon="@drawable/ic_launcher" android:theme="@style/AppTheme">
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
         <activity
-            android:name="keep.call.me.MainActivity"
-            android:configChanges="keyboardHidden|orientation|screenSize"
-            android:label="@string/app_name" >
+            android:name="keep.call.me.activities.ActivityEstado"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="keep.call.me.Telefones"
-            android:configChanges="keyboardHidden|orientation|screenSize" />
-        <activity
-            android:name="keep.call.me.Dialog"
-            android:configChanges="keyboardHidden|orientation|screenSize" />
-        <activity
-            android:name="com.google.ads.AdActivity"
-            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        <activity android:name="keep.call.me.activities.ActivityCidade" />
     </application>
 
 </manifest>

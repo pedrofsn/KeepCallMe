@@ -40,24 +40,24 @@
                 android:layout_marginTop="5dp"
                 android:textColor="@color/cor_laranka_titulo_item_adapter"
                 android:textStyle="bold" />
-<!--
-            <TextView
-                android:id="@+id/regiao"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="teste"
-                android:textColor="@color/cinza_fonte_cor_clara"
-                android:textStyle="italic|normal" />
+            <!--
+                        <TextView
+                            android:id="@+id/regiao"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="teste"
+                            android:textColor="@color/cinza_fonte_cor_clara"
+                            android:textStyle="italic|normal" />
 
-            <TextView
-                android:id="@+id/uf"
-                android:text="teste"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp"
-                android:textColor="@color/cinza_fonte_cor_clara"
-                android:textStyle="italic|normal" />
-                -->
+                        <TextView
+                            android:id="@+id/uf"
+                            android:text="teste"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:textColor="@color/cinza_fonte_cor_clara"
+                            android:textStyle="italic|normal" />
+                            -->
         </LinearLayout>
 
         <ImageView

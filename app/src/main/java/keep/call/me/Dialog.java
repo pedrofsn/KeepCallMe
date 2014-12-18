@@ -51,7 +51,7 @@ public class Dialog extends DialogFragment implements OnClickListener {
                 break;
             case R.id.manualmente:
                 intent = new Intent(Intent.ACTION_DIAL);
-                intent.setData(Uri.parse("tel:" + Telefones.dddRecebido));
+                intent.setData(Uri.parse("tel:" + "aaaaaaaaa"));
                 startActivity(intent);
                 break;
 
