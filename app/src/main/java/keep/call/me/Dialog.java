@@ -17,6 +17,7 @@ public class Dialog extends DialogFragment implements OnClickListener {
 
     private Button listaDeContatos;
     private Button manualmente;
+
     public Dialog() {
         // Empty constructor required for DialogFragment
     }

@@ -2,26 +2,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="teste" />
-
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#f2f2f2"
-        android:focusableInTouchMode="true"
-        android:visibility="gone">
+        android:focusableInTouchMode="true">
 
-        <ListView
-            android:id="@+id/lista"
+        <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:cacheColorHint="@null"
-            android:divider="@null"
-            android:listSelector="@drawable/list_selector_color" />
+            android:id="@+id/my_recycler_view"
+            android:scrollbars="vertical"
+            tools:context=".MyActivity" />
+
     </RelativeLayout>
 
     <ProgressBar
