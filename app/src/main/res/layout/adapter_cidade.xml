@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="?android:attr/listPreferredItemHeight" >
+    android:layout_height="?android:attr/listPreferredItemHeight">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -10,10 +10,10 @@
         android:layout_marginLeft="6dp"
         android:layout_marginRight="6dp"
         android:layout_marginTop="4dp"
-        android:background="@drawable/background_card" >
+        android:background="@drawable/background_card">
 
         <TextView
-            android:id="@+id/ddd"
+            android:id="@+id/textViewDdd"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_alignParentLeft="true"
@@ -30,31 +30,34 @@
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:layout_toLeftOf="@+id/icon"
-            android:layout_toRightOf="@+id/ddd"
-            android:orientation="vertical" >
+            android:layout_toRightOf="@+id/textViewDdd"
+            android:orientation="vertical">
 
             <TextView
-                android:id="@+id/cidade"
+                android:id="@+id/textViewNomeDaCidade"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:textColor="@color/cor_laranka_titulo_item_adapter"
                 android:textStyle="bold" />
-
+<!--
             <TextView
                 android:id="@+id/regiao"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="teste"
                 android:textColor="@color/cinza_fonte_cor_clara"
                 android:textStyle="italic|normal" />
 
             <TextView
                 android:id="@+id/uf"
+                android:text="teste"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:textColor="@color/cinza_fonte_cor_clara"
                 android:textStyle="italic|normal" />
+                -->
         </LinearLayout>
 
         <ImageView
